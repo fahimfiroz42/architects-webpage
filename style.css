@@ -78,10 +78,41 @@ color: (19, 19, 19);
 .banner-title h1,p{
     padding: 32px 0 ;
 }
+.features {
+    max-width: 1440px;
+    margin: 100px auto;
+    align-items: center;
+    gap: 72px;
+}
+.features-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.features-content h2{
 
+   color: rgb(19, 19, 19);
+   font-weight: 700;
+   font-size:2.7rem ;
+}
+#Our-Features{
+    color:
+    rgb(255, 144, 14);
 
+}
+.features-content{
+    max-width: 537px;
+}
 
+.Facts{
+   max-width: 1440px;
+   margin: 120px auto ;
+}
 
+.facts-card{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+}
 
 
 
@@ -96,6 +127,15 @@ color: (19, 19, 19);
     }
 .link-container{
     flex-direction: column;
-    gap: 20px;
+    
 }
+.features{
+    flex-direction: column;
+   gap: 10px;
+}
+.features-img{
+    grid-template-columns: repeat(1,1fr);
+}
+
+
 }
